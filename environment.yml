@@ -1,0 +1,10 @@
+name: reels-marketplace
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - Flask==3.0.3
+      - Flask-SQLAlchemy==3.1.1
+      - Flask-Login==0.6.3
